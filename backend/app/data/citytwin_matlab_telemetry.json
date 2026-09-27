@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-09-12 21:20:00",
+  "hackathon": "BNMIT Eco-Innovate 2026",
+  "theme": "Theme 2: Smart City 2030 (MathWorks & IEEE Bangalore Section)",
+  "simulink": {
+    "final_open_loop_density": 118.4,
+    "final_closed_loop_density": 46.2,
+    "speed_recovery_kmh": 38.5,
+    "aqi_open_loop": 240.3,
+    "aqi_closed_loop": 85.2,
+    "stabilization_time_seconds": 18.5
+  },
+  "emergency_routing": {
+    "eta_normal_min": 8.4,
+    "eta_incident_detour_min": 26.8,
+    "eta_optC_greenwave_min": 7.1,
+    "eta_reduction_percent": 73.5,
+    "optimal_path_nodes": [
+      "Silk Board",
+      "BTM Ring Road",
+      "Jayanagar 4th",
+      "Lalbagh West",
+      "Victoria Hospital"
+    ]
+  },
+  "environmental": {
+    "peak_aqi_incident": 242.0,
+    "peak_aqi_option_c": 86.0,
+    "aqi_hotspot_reduction_percent": 64.5,
+    "wind_advection_vector": [2.26, 2.26]
+  },
+  "pareto_optimization": {
+    "option_A_delay_eta_emissions": [1420.0, 26.8, 2150.0],
+    "option_B_delay_eta_emissions": [940.0, 17.5, 1680.0],
+    "option_C_delay_eta_emissions": [410.0, 7.1, 1020.0],
+    "option_C_strictly_dominates": true
+  }
+}

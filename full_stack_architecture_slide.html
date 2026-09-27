@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CITYTWIN — Full-Stack Architecture Slide</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    /* 16:9 Slide Canvas */
+    .slide-canvas {
+      width: 1280px;
+      height: 720px;
+      background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      position: relative;
+      padding: 35px 60px 25px 60px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    /* Header Area */
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .logo-placeholder {
+      font-size: 13px;
+      font-weight: 700;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .title-block {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .title-block h1 {
+      font-size: 34px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+    .title-block p {
+      font-size: 15px;
+      font-style: italic;
+      color: #475569;
+    }
+    /* Stacked Cards Area */
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex: 1;
+    }
+    .layer-card {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 14px 24px;
+      border: 2px solid;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      transition: transform 0.15s ease;
+    }
+    .layer-title {
+      font-size: 18px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+    .layer-subtitle {
+      font-size: 13.5px;
+      color: #475569;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    /* Specific Layer Colors */
+    .layer-1 {
+      border-color: #1e3a8a;
+    }
+    .layer-1 .layer-title { color: #1e3a8a; }
+    .layer-1 .badge { background: #dbeafe; color: #1e40af; }
+
+    .layer-2 {
+      border-color: #0284c7;
+    }
+    .layer-2 .layer-title { color: #0284c7; }
+    .layer-2 .badge { background: #e0f2fe; color: #0369a1; }
+
+    .layer-3 {
+      border-color: #d97706;
+    }
+    .layer-3 .layer-title { color: #d97706; }
+    .layer-3 .badge { background: #fef3c7; color: #b45309; }
+
+    .layer-4 {
+      border-color: #059669;
+    }
+    .layer-4 .layer-title { color: #059669; }
+    .layer-4 .badge { background: #d1fae5; color: #047857; }
+
+    /* Down Arrows */
+    .arrow-divider {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+      margin: -6px 0;
+      z-index: 10;
+    }
+
+    /* Footer */
+    .footer-bar {
+      margin-top: 15px;
+      font-size: 12px;
+      font-style: italic;
+      color: #64748b;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slide-canvas">
+    <!-- Header -->
+    <div class="header-bar">
+      <div class="logo-placeholder">BNMIT • SILVER JUBILEE</div>
+      <div style="font-size: 16px; font-weight: 900; color: #0f172a; letter-spacing: 0.05em;">ECO-INNOVATE 2026</div>
+      <div class="logo-placeholder">GOLDEN JUBILEE • VTU</div>
+    </div>
+
+    <!-- Title Block -->
+    <div class="title-block">
+      <h1>Full-Stack Architecture</h1>
+      <p>Proposed Solution — Other Tools Used</p>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="cards-container">
+      
+      <!-- Layer 1 -->
+      <div class="layer-card layer-1">
+        <div class="layer-title">
+          <span>Layer 1 — Mathematical Core</span>
+          <span style="color: #64748b; font-weight: 400;">—</span>
+          <span>MATLAB® + Simulink® R2024b</span>
+          <span class="badge">Physics & Control</span>
+        </div>
+        <div class="layer-subtitle">
+          Traffic dynamics (LWR & Greenshields PDE) · 18-corridor Dijkstra routing · Gaussian plume atmospheric model · 3D Pareto multi-objective optimization
+        </div>
+      </div>
+
+      <div class="arrow-divider">▼</div>
+
+      <!-- Layer 2 -->
+      <div class="layer-card layer-2">
+        <div class="layer-title">
+          <span>Layer 2 — Backend</span>
+          <span style="color: #64748b; font-weight: 400;">—</span>
+          <span>Python 3.14 + FastAPI + Uvicorn</span>
+          <span class="badge">Orchestration</span>
+        </div>
+        <div class="layer-subtitle">
+          Simulation orchestration · sub-10ms ODE math mirror · dynamic spillover redistribution · REST API & telemetry exchange (16/16 Pytest passing)
+        </div>
+      </div>
+
+      <div class="arrow-divider">▼</div>
+
+      <!-- Layer 3 -->
+      <div class="layer-card layer-3">
+        <div class="layer-title">
+          <span>Layer 3 — Digital Twin</span>
+          <span style="color: #64748b; font-weight: 400;">—</span>
+          <span>Three.js / WebGL</span>
+          <span class="badge">Spatial Twin</span>
+        </div>
+        <div class="layer-subtitle">
+          3D city representation (60 FPS) · vehicle particle animation matching MATLAB v(k) · trauma ambulance siren unit · real-time congestion & hazard beacons
+        </div>
+      </div>
+
+      <div class="arrow-divider">▼</div>
+
+      <!-- Layer 4 -->
+      <div class="layer-card layer-4">
+        <div class="layer-title">
+          <span>Layer 4 — Interface</span>
+          <span style="color: #64748b; font-weight: 400;">—</span>
+          <span>React 18 + Vite + Tailwind CSS</span>
+          <span class="badge">Mission Control</span>
+        </div>
+        <div class="layer-subtitle">
+          Interactive scenario sliders · live KPI telemetry · roadside LED Variable Message Signs (VMS) · 3-option Pareto comparison panels · mobile citizen alerts
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-bar">
+      Prototype architecture — Includes only tools actually implemented in the CITYTWIN codebase.
+    </div>
+  </div>
+
+</body>
+</html>

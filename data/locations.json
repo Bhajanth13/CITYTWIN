@@ -1,0 +1,74 @@
+[
+  {
+    "id": "LOC_HOSPITAL",
+    "name": "City Central Hospital",
+    "type": "hospital",
+    "x": 820,
+    "y": 140,
+    "description": "Primary tertiary care facility & emergency trauma center",
+    "connected_node": "NODE_HOSPITAL"
+  },
+  {
+    "id": "LOC_STATION",
+    "name": "Central Emergency Station",
+    "type": "emergency_station",
+    "x": 150,
+    "y": 480,
+    "description": "Ambulance base and rapid emergency dispatch headquarters",
+    "connected_node": "NODE_WEST_GATE"
+  },
+  {
+    "id": "LOC_TECHPARK",
+    "name": "Silicon Tech & Business Park",
+    "type": "commercial",
+    "x": 160,
+    "y": 150,
+    "description": "High-density employment hub with heavy peak commuter flows",
+    "connected_node": "NODE_NORTH_WEST"
+  },
+  {
+    "id": "LOC_UNIVERSITY",
+    "name": "Metro State University",
+    "type": "education",
+    "x": 480,
+    "y": 80,
+    "description": "Major educational campus with active pedestrian & bus transit",
+    "connected_node": "NODE_NORTH_CENTRAL"
+  },
+  {
+    "id": "LOC_JUNCTION",
+    "name": "Central Grand Junction",
+    "type": "junction",
+    "x": 480,
+    "y": 300,
+    "description": "Core multi-way arterial junction connecting all quadrants",
+    "connected_node": "NODE_CENTER"
+  },
+  {
+    "id": "LOC_TERMINAL",
+    "name": "Central Transit Terminal",
+    "type": "transit",
+    "x": 800,
+    "y": 460,
+    "description": "Intermodal bus and train transportation hub",
+    "connected_node": "NODE_SOUTH_EAST"
+  },
+  {
+    "id": "LOC_MARKET",
+    "name": "Downtown Commercial Market",
+    "type": "commercial",
+    "x": 300,
+    "y": 320,
+    "description": "Dense shopping and market center with delivery corridors",
+    "connected_node": "NODE_WEST_CENTRAL"
+  },
+  {
+    "id": "LOC_RESIDENTIAL",
+    "name": "Green Hills Residential District",
+    "type": "residential",
+    "x": 480,
+    "y": 520,
+    "description": "High-density residential neighborhood and civic housing",
+    "connected_node": "NODE_SOUTH_CENTRAL"
+  }
+]

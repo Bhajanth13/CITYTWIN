@@ -1,0 +1,56 @@
+[
+  {
+    "id": "NODE_NORTH_WEST",
+    "name": "North-West Intersection (Tech Corridor)",
+    "x": 160,
+    "y": 150
+  },
+  {
+    "id": "NODE_NORTH_CENTRAL",
+    "name": "North University Junction",
+    "x": 480,
+    "y": 80
+  },
+  {
+    "id": "NODE_HOSPITAL",
+    "name": "Hospital Expressway Node",
+    "x": 820,
+    "y": 140
+  },
+  {
+    "id": "NODE_WEST_CENTRAL",
+    "name": "Market Square Node",
+    "x": 300,
+    "y": 320
+  },
+  {
+    "id": "NODE_CENTER",
+    "name": "Central Grand Roundabout",
+    "x": 480,
+    "y": 300
+  },
+  {
+    "id": "NODE_EAST_CENTRAL",
+    "name": "East Bypass Junction",
+    "x": 680,
+    "y": 280
+  },
+  {
+    "id": "NODE_WEST_GATE",
+    "name": "Emergency Station Depot",
+    "x": 150,
+    "y": 480
+  },
+  {
+    "id": "NODE_SOUTH_CENTRAL",
+    "name": "Residential South Crossway",
+    "x": 480,
+    "y": 520
+  },
+  {
+    "id": "NODE_SOUTH_EAST",
+    "name": "Transit Terminal Junction",
+    "x": 800,
+    "y": 460
+  }
+]

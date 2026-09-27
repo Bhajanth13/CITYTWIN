@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ROAD_A",
+    "name": "Central Hospital Arterial",
+    "start_node": "NODE_CENTER",
+    "end_node": "NODE_HOSPITAL",
+    "length_km": 2.2,
+    "capacity": 1200,
+    "free_flow_speed": 50,
+    "baseline_vehicles": 480
+  },
+  {
+    "id": "ROAD_B",
+    "name": "North University Expressway",
+    "start_node": "NODE_NORTH_CENTRAL",
+    "end_node": "NODE_HOSPITAL",
+    "length_km": 2.8,
+    "capacity": 1000,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 350
+  },
+  {
+    "id": "ROAD_C",
+    "name": "East Bypass Northern Wing",
+    "start_node": "NODE_EAST_CENTRAL",
+    "end_node": "NODE_HOSPITAL",
+    "length_km": 1.8,
+    "capacity": 900,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 310
+  },
+  {
+    "id": "ROAD_D",
+    "name": "Northern Tech Corridor",
+    "start_node": "NODE_NORTH_WEST",
+    "end_node": "NODE_NORTH_CENTRAL",
+    "length_km": 3.2,
+    "capacity": 1100,
+    "free_flow_speed": 50,
+    "baseline_vehicles": 440
+  },
+  {
+    "id": "ROAD_E",
+    "name": "West Tech-Market Avenue",
+    "start_node": "NODE_NORTH_WEST",
+    "end_node": "NODE_WEST_CENTRAL",
+    "length_km": 2.1,
+    "capacity": 800,
+    "free_flow_speed": 40,
+    "baseline_vehicles": 290
+  },
+  {
+    "id": "ROAD_F",
+    "name": "Market Central Boulevard",
+    "start_node": "NODE_WEST_CENTRAL",
+    "end_node": "NODE_CENTER",
+    "length_km": 1.8,
+    "capacity": 1000,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 420
+  },
+  {
+    "id": "ROAD_G",
+    "name": "Emergency Station Fastlane",
+    "start_node": "NODE_WEST_GATE",
+    "end_node": "NODE_WEST_CENTRAL",
+    "length_km": 2.0,
+    "capacity": 850,
+    "free_flow_speed": 40,
+    "baseline_vehicles": 250
+  },
+  {
+    "id": "ROAD_H",
+    "name": "South-West Residential Radial",
+    "start_node": "NODE_WEST_GATE",
+    "end_node": "NODE_SOUTH_CENTRAL",
+    "length_km": 3.4,
+    "capacity": 900,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 330
+  },
+  {
+    "id": "ROAD_I",
+    "name": "South Civic Boulevard",
+    "start_node": "NODE_SOUTH_CENTRAL",
+    "end_node": "NODE_CENTER",
+    "length_km": 2.2,
+    "capacity": 1000,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 380
+  },
+  {
+    "id": "ROAD_J",
+    "name": "East Ring Expressway",
+    "start_node": "NODE_CENTER",
+    "end_node": "NODE_EAST_CENTRAL",
+    "length_km": 2.0,
+    "capacity": 1100,
+    "free_flow_speed": 50,
+    "baseline_vehicles": 410
+  },
+  {
+    "id": "ROAD_K",
+    "name": "Transit Terminal East Link",
+    "start_node": "NODE_EAST_CENTRAL",
+    "end_node": "NODE_SOUTH_EAST",
+    "length_km": 2.2,
+    "capacity": 950,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 360
+  },
+  {
+    "id": "ROAD_L",
+    "name": "South Peripheral Connector",
+    "start_node": "NODE_SOUTH_CENTRAL",
+    "end_node": "NODE_SOUTH_EAST",
+    "length_km": 3.3,
+    "capacity": 900,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 280
+  },
+  {
+    "id": "ROAD_M",
+    "name": "University Campus Radial",
+    "start_node": "NODE_NORTH_CENTRAL",
+    "end_node": "NODE_CENTER",
+    "length_km": 2.3,
+    "capacity": 950,
+    "free_flow_speed": 40,
+    "baseline_vehicles": 370
+  },
+  {
+    "id": "ROAD_N",
+    "name": "Tech Diagonal Freeway",
+    "start_node": "NODE_NORTH_WEST",
+    "end_node": "NODE_CENTER",
+    "length_km": 3.6,
+    "capacity": 1200,
+    "free_flow_speed": 55,
+    "baseline_vehicles": 490
+  },
+  {
+    "id": "ROAD_O",
+    "name": "Eastern Outer Bypass",
+    "start_node": "NODE_SOUTH_EAST",
+    "end_node": "NODE_HOSPITAL",
+    "length_km": 3.5,
+    "capacity": 850,
+    "free_flow_speed": 45,
+    "baseline_vehicles": 270
+  },
+  {
+    "id": "ROAD_P",
+    "name": "Station North Link",
+    "start_node": "NODE_WEST_GATE",
+    "end_node": "NODE_NORTH_WEST",
+    "length_km": 3.8,
+    "capacity": 800,
+    "free_flow_speed": 40,
+    "baseline_vehicles": 260
+  },
+  {
+    "id": "ROAD_Q",
+    "name": "East Bypass Ring Return",
+    "start_node": "NODE_SOUTH_EAST",
+    "end_node": "NODE_EAST_CENTRAL",
+    "length_km": 2.1,
+    "capacity": 750,
+    "free_flow_speed": 40,
+    "baseline_vehicles": 220
+  },
+  {
+    "id": "ROAD_R",
+    "name": "West Market-Civic Connector",
+    "start_node": "NODE_WEST_CENTRAL",
+    "end_node": "NODE_SOUTH_CENTRAL",
+    "length_km": 2.7,
+    "capacity": 750,
+    "free_flow_speed": 35,
+    "baseline_vehicles": 230
+  }
+]
